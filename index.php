@@ -1,6 +1,7 @@
-<!-- begin test snippet -->
-<div class="test snippet">
-    tut content <br>
-    Hello World!
-</div>
-<!-- end test snippet -->
+<?php
+
+include_once("init.php");
+
+if (1 == 1) {
+    echo 'hi';
+}

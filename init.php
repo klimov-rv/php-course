@@ -1,5 +1,9 @@
 <?php
 
-include_once("init.php");
+const TESTCONSTANTA = 'asd';
+$userName = "Igor";
 
-if (1==1) echo 'hi';
+function showSomething()
+{
+    return 'SOMETHING';
+}
