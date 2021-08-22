@@ -1,7 +1,11 @@
 <?php
 
-include_once("init.php");
+$name = "Рома";
+$age = "33";
 
-if (1 == 1) {
-    echo 'hi';
-}
+
+echo 'Меня зовут: '.$name;
+echo '<br>';
+echo "Мне $age лет";
+echo '<br>';
+echo " /!|/’”\\";

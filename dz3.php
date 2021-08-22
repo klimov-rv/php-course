@@ -1,11 +1,17 @@
 <?php
 
-const PIC_SUMM = 80;
-const PIC_FLOMASTER = 23;
-const PIC_KARANDASH = 40;
-const PIC_KRASKI = PIC_SUMM - PIC_FLOMASTER - PIC_KARANDASH;
+$age = rand(-50, 100);
+const MIN_AGE = 1;
+const MIDDLE_AGE = 18;
+const MAX_AGE = 65;
 
-echo "На школьной выставке 80 рисунков. 23 из них выполнены фломастерами, 40 карандашами, а остальные — красками. Сколько рисунков, выполненные красками, на школьной выставке?";
+if ($age >= MIDDLE_AGE && $age <= MAX_AGE) {
+    echo "Вам еще работать и работать";
+} elseif ($age > MAX_AGE) {
+    echo "Вам пора на пенсию";
+} elseif ($age >= MIN_AGE && $age < MIDDLE_AGE) {
+    echo "Вам ещё рано работать";
+} else {
+    echo "Неизвестный возраст";
+}
 echo "<br>";
-echo "Ответ:";
-echo PIC_KRASKI;

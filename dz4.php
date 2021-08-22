@@ -1,17 +1,20 @@
 <?php
 
-$age = 100;
+$day = "Вс";
+$days = ["Пн","Вт","Ср","Чт","Пт","Сб","Вс"];
 
-if (($age >= 18) && ($age <= 65)) {
-    echo "Вам еще работать и работать";
-    echo "<br>";
-} elseif ($age > 65) {
-    echo "Вам пора на пенсию";
-    echo "<br>";
-} elseif (($age >= 1) && ($age <= 17)) {
-    echo "Вам ещё рано работать";
-    echo "<br>";
-} else {
-    echo "Неизвестный возраст";
-    echo "<br>";
+switch ($day) {
+    case "Пн":
+    case "Вт":
+    case "Ср":
+    case "Чт":
+    case "Пт":
+        echo "Это рабочий день";
+        break;
+    case "Сб":
+    case "Вс":
+        echo "Это выходной день";
+        break;
+    default:
+        echo "Неизвестный день";
 }
