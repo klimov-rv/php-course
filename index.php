@@ -1,17 +1,15 @@
 <?php
 
-include_once("init.php");
+echo "<h3>домашнее задание #0</h3>";
+echo "<a href='dz0/task0.1.php'>Задание #0</a> <br>";
+echo "<h3>домашнее задание #1</h3>";
+echo "<a href='dz1/task1.1.php'>Задание #1.1</a> <br>";
+echo "<a href='dz1/task1.2.php'>Задание #1.2</a> <br>";
+echo "<a href='dz1/task1.3.php'>Задание #1.3</a> <br>";
+echo "<a href='dz1/task1.4.php'>Задание #1.4</a> <br>";
+echo "<a href='dz1/task1.5.php'>Задание #1.5</a> <br>";
+echo "<a href='dz1/task1.6.php'>Задание #1.6</a> <br>";
+echo "<h3>домашнее задание #2</h3>";
+echo "<a href='dz2/index.php'>Задание #2.1</a> <br>";
 
-if (1 == 1) {
-    echo 'hi';
-}
-
-echo "<h1>Домашние задания</h1>";
-echo "<a href='dz1.php'>Задание #1</a> <br>";
-echo "<a href='dz2.php'>Задание #2</a> <br>";
-echo "<a href='dz3.php'>Задание #3</a> <br>";
-echo "<a href='dz4.php'>Задание #4</a> <br>";
-echo "<a href='dz5.php'>Задание #5</a> <br>";
-echo "<a href='dz6.php'>Задание #6</a> <br>";
-echo "<a href='dz7.php'>Задание #7</a> <br>";
-echo "<a href='dz8.php'>Задание #8</a> <br>";
+// echo date('d.m.Y H:i');

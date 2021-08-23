@@ -13,3 +13,8 @@ xdebug.remote_port = 9000
 
 xdebug.overload_var_dump = 1
 ```
+
+Какие значения являются "empty"
+```
+ $emptyArray = [0, "", "0", null, false ,[]]
+```
